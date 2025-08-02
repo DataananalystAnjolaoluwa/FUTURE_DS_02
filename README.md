@@ -3,7 +3,8 @@
 A data analytics project that explores the performance of real-world social media advertising campaigns using **Python**, **Google Looker Studio**, and **Power BI**. The goal is to uncover what drives user engagement, optimize conversion, and support data-driven marketing strategies.
 
 ![Looker Studio Report](assets/lookerstudio_report.png)
-![Power BI Dashboard](assets/PowerBI Dashboard.png)
+![Power BI Dashboard](assets/PowerBI%20Dashboard.png)
+
 
 
 ---
