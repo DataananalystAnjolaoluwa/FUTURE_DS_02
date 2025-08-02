@@ -122,7 +122,7 @@ Tried a **Random Forest Regressor** to predict **Conversion Rate** using campaig
 
 ---
 
-### 🟣 Dashboard 2: Power BI – *“Social Media Campaign Performance Tracker”*
+### Dashboard 2: Power BI – *“Social Media Campaign Performance Tracker”*
 
 #### 📊 Summary Metrics
 - **Total Clicks:** 5 billion  
