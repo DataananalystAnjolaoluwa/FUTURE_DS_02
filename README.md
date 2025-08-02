@@ -2,6 +2,10 @@
 
 A data analytics project that explores the performance of real-world social media advertising campaigns using **Python**, **Google Looker Studio**, and **Power BI**. The goal is to uncover what drives user engagement, optimize conversion, and support data-driven marketing strategies.
 
+![Looker Studio Report](assets/lookerstudio_report.png)
+![Power BI Dashboard](assets/PowerBI Dashboard.png)
+
+
 ---
 
 ## 📌 Project Objective
@@ -69,88 +73,98 @@ Tried a **Random Forest Regressor** to predict **Conversion Rate** using campaig
 
 ## 🔍 Key Insights
 
-Dashboard 1: Looker Studio - “Social Media Campaign Performance Dashboard”
-📊 Overall Campaign Metrics
-Total Clicks: 5.45 billion
+### 📊 Dashboard 1: Looker Studio – *“Social Media Campaign Performance Dashboard”*
 
-Total Impressions: 16.81 billion
+#### ✅ Overall Campaign Metrics
+- **Total Clicks:** 5.45 billion  
+- **Total Impressions:** 16.81 billion  
+- **Click-Through Rate (CTR):** 31.42%  
+- **Average ROI:** 3.18  
 
-Click-Through Rate (CTR): 31.42%
-
-Average ROI: 3.18
-
-📈 Performance Over Time
+#### 📈 Performance Over Time
 - CTR (%) remained relatively stable across the year.
-
 - ROI showed minimal variation, indicating consistent campaign returns.
 
-📌 Top Performing Channels
-Reach by Channel: **Instagram** and **Pinterest each contributed 27.4% of ad reach, followed by Facebook (27.5%) and Twitter (17.6%).
+#### 📌 Top Performing Channels
+- **Reach by Channel:**  
+  - **Instagram:** 27.4%  
+  - **Pinterest:** 27.4%  
+  - **Facebook:** 27.5%  
+  - **Twitter:** 17.6%  
 
-🧑‍🤝‍🧑 Customer Segment Insights
-Highest Engagement: Health (21%) and Home (20%) segments.
+#### 🧑‍🤝‍🧑 Customer Segment Insights
+- **Highest Engagement:**  
+  - *Health* (21%)  
+  - *Home* (20%)  
+- **Gender Reach:**  
+  - Women: 44.5%  
+  - Men: 44.4%  
+  - Unspecified: Remaining %
 
-Gender Reach: Balanced — 44.5% Women, 44.4% Men, rest unspecified.
+#### 🌎 Impressions by Location
+- **Top Cities:**  
+  - Miami  
+  - Los Angeles  
+  - New York  
+  - Austin  
+  - Las Vegas  
+- Each received about **3B–4B impressions**.
 
-🌎 Impressions by Location
-Top Cities: Miami, Los Angeles, New York, Austin, Las Vegas — each received about 3B–4B impressions.
+#### 🕐 Time-based Performance
+- **Top CTR Days & Times:**  
+  - *Tuesday, Wednesday, and Monday nights* had the highest CTR (31.41%).
 
-🕐 Time-based Performance
-Top CTR Days & Times: Tuesday, Wednesday, and Monday nights had the highest CTR (31.41%).
+#### 🏆 Campaign Goal Effectiveness
+- **Top Goals by ROI & Conversions:**  
+  - *Product Launch:* Highest ROI  
+  - *Brand Awareness* and *Increase Sales* followed closely.
 
-🏆 Campaign Goal Effectiveness
-Top Goals by ROI & Conversions:
+---
 
-Product Launch: Highest ROI
+### 🟣 Dashboard 2: Power BI – *“Social Media Campaign Performance Tracker”*
 
-Brand Awareness and Increase Sales followed closely.
+#### 📊 Summary Metrics
+- **Total Clicks:** 5 billion  
+- **Average CTR:** 31.42%  
+- **Average ROI:** 3.18  
+- **Average Engagement Score:** 4.37  
 
-🟣 Dashboard 2: Power BI - “Social Media Campaign Performance Tracker”
-📊 Summary Metrics
-Total Clicks: 5 billion
+#### 🌐 Platform Performance
+- **Top Engagement Ads:**  
+  - Instagram (0.41M)  
+  - Facebook  
+  - Twitter  
+  - Pinterest (lowest)
+- **CTR (%) by Platform:**  
+  - *Twitter:* Highest  
+  - *Pinterest:* Lowest
 
-Average CTR: 31.42%
+#### 📍 Reach Distribution
+- **Map of Campaign Reach:**  
+  - Campaigns covered all major global regions  
+  - Stronger presence in *North America*, *Europe*, and *Asia*.
 
-Average ROI: 3.18
+#### 🧑 Demographics
+- **ROI by Age Group:**  
+  - *Age 26–34* and *18–24* showed the highest ROI (~19.96%).
 
-Average Engagement Score: 4.37
+- **High-Performing Segments:**  
+  - *All*
 
-🌐 Platform Performance
-Top Engagement Ads: Instagram (0.41M), Facebook, Twitter — Pinterest performed the lowest.
-
-CTR (%) by Platform:
-
-Twitter: Highest CTR
-
-Pinterest: Lowest CTR
-
-📍 Reach Distribution
-Map of Campaign Reach: Campaigns covered all major global regions with stronger presence in North America, Europe, and Asia.
-
-🧑 Demographics
-ROI by Age Group:
-
-Age 26–34 and 18–24 showed the highest ROI (~19.96%).
-
-High-Performing Segments:
-
-All  
 
 ---
 
 ## 📁 Repository Structure
 
-📦 Social-Media-Campaign-Performance/
-├── 📊 dashboards/
-│ ├── GoogleLookerDashboard.pdf
-│ └── PowerBIReport.pbix
-├── 📄 Task2_futureinternsReport.pdf
-├── 📓 campaign_analysis_notebook.ipynb
-├── 📁 data/
-│ └── social_media_campaign_clean.csv
-├── 📷 assets/
-│ └── tool_logos_image.png
-└── 📄 README.md
+FUTURE_DS_02/
+├── assets/
+│ ├── PowerBI Dashboard.png # Preview image of Power BI dashboard
+│ └── lookerstudio_report.png # Preview image of Looker Studio dashboard
+├── Campaign_performance.ipynb # Python notebook for cleaning, EDA, and modeling
+├── Dataset.zip # Enhanced dataset (CSV format inside)
+├── Google_looker report.pdf # PDF version of Looker Studio dashboard
+├── Task2 futureinterns_campaign performance.pbix # Power BI dashboard file
+└── README.md # Project overview and documentation
 
 
 ---
@@ -158,6 +172,12 @@ All
 ## 🎥 Video Walkthrough
 
 Watch the full demo and explanation of this project on [LinkedIn](#) *(https://www.linkedin.com/in/anjolaoluwa-adekomi-7b2548343/)*.
+
+## 🔗 Live Dashboards
+
+- [Google Looker Studio Report](https://lookerstudio.google.com/reporting/ae2acc7f-ef55-4724-acc8-182d680ead71/page/z7KTF) – Interactive dashboard showcasing campaign insights.
+- [Power BI Dashboard (Image Preview)](assets/PowerBI%20Dashboard.png) – Full .pbix file is available for download in this repository.
+
 
 ---
 
