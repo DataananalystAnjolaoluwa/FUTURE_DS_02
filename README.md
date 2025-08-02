@@ -231,3 +231,16 @@ Watch the full demo and explanation of this project on [LinkedIn](#) *(https://w
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anjolaoluwa-adekomi-7b2548343/)  
 📧 Email: aadekomi.2201826@stu.cu.edu.ng  
 💼 Portfolio: [https://anjolaoluwadekomiportfolio.my.canva.site/](#)
+
+---
+
+## 🙌 Support This Project
+
+If you found this project helpful or inspiring, feel free to:
+
+⭐️ **Star** this repository to show your support  
+🔀 **Fork** it if you’d like to build on it or explore it further  
+🐦 **Share** it with others who might find it valuable!
+
+Your support helps me keep learning, growing, and creating more projects like this. Thank you! 💛
+
